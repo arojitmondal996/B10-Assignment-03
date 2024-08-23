@@ -28,15 +28,20 @@
             }
         }
     </script>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="font-manrope">
     <header class="container mx-auto">
         <!-- nav bar start -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
-                    
+
                 </div>
                 <div class="md:block lg:block">
                     <a class=""><i
@@ -55,10 +60,12 @@
             </div>
             <div class="navbar-end flex gap-4">
                 <div class="hidden md:block lg:block">
-                    <i class="fa-solid fa-magnifying-glass fa-solid fa-arrow-right p-2 bg-[#E9E9E9] rounded-2xl text-slate-400"></i>
+                    <i
+                        class="fa-solid fa-magnifying-glass fa-solid fa-arrow-right p-2 bg-[#E9E9E9] rounded-2xl text-slate-400"></i>
                 </div>
                 <div class="hidden md:block lg:block">
-                    <i class="fa-solid fa-cart-shopping fa-solid fa-arrow-right p-2 bg-[#E9E9E9] rounded-2xl text-slate-400"></i>
+                    <i
+                        class="fa-solid fa-cart-shopping fa-solid fa-arrow-right p-2 bg-[#E9E9E9] rounded-2xl text-slate-400"></i>
                 </div>
                 <div class="hidden md:block lg:block">
                     <a class="btn bg-[#ABEF5F] rounded-3xl font-semibold">Book Consult<i
@@ -68,8 +75,7 @@
             <div tabindex="0" role="button" class="Container mx-auto btn btn-ghost lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M4 6h16M4 12h8m-8 6h16" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
             </div>
         </div>
@@ -77,10 +83,61 @@
     </header>
     <main>
         <!-- banner section start -->
-        <div class="mx-auto">
-            <img class="mx-auto mt-8" src="./assets/banner.png"
-                alt="">
+        <div class="container mx-auto">
+            <img class="mx-auto mt-8" src="./assets/banner.png" alt="">
+            <h2 class="mx-auto mt-3 text-center text-4xl lg:text-6xl font-extrabold lg:font-extrabold text-[#212121]">A
+                barn house of this design has
+                a <br> striking appearance</h2>
+            <p class="text-center mt-9">The barn house captivates with its blend of rustic charm and modern
+                sophistication, featuring weathered
+                wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+            <div class="justify-center flex items-center mt-4">
+                <a
+                    class="btn bg-[#ABEF5F] bg-opacity-40 border border-[#ABEF5F] rounded-3xl font-semibold items-center">View
+                    Details<i
+                        class="fa-solid fa-arrow-right -rotate-45 p-2 bg-[#ABEF5F] rounded-2xl text-black"></i></a>
+            </div>
         </div>
+        <!-- web design section start -->
+        <section>
+            <div class="bg-gray-200 mt-14 relative py-5 justify-between items-center lg:flex mx-auto">
+                <div class="lg:ml-9">
+                    <div class="absolute lg:top-6 left-0 container hidden mx-auto lg:block">
+                        <img src="./assets/Vector.png" alt="">
+                    </div>
+                    <div class="mx-auto container top-14 text-center lg:text-start justify-center items-center justify-items-center">
+                        <a class="btn bg-[#FFFFFF] bg-slate-50 rounded-3xl mt-16 font-semibold justify-between items-center text-center">
+                            <i class="text-center fa-solid fa-arrow-right p-1 rounded-2xl text-black"></i>About Us
+                        </a>
+                        <h1 class="font-bold text-5xl text-[#212121] mt-5 justify-between items-center text-center lg:text-left">We design thoughtful, <br> liveable spaces</h1>
+                        <p class="text-[#494949] text-light mt-5 justify-between items-center text-center lg:text-left">The barn house captivates with its blend of rustic charm 
+                            and <br>modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                    <div class="container mx-auto bg-white my-4 rounded-lg p-4 flex gap-8">
+                        <div>
+                            <img src="./assets/commercial.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Commercial</h1>
+                            <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="container mx-auto bg-white my-4 rounded-lg p-4 flex gap-8">
+                        <div>
+                            <img src="./assets/residential.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Residential</h1>
+                            <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-6 lg:mx-0 mt-8 flex mx-auto">
+                    <img src="./assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
