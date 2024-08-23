@@ -1,15 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- tailwind css configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
+    <header class="container mx-auto">
+        <!-- nav bar start -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    
+                </div>
+                <div class="md:block lg:block">
+                    <a class=""><i
+                            class="fa-solid fa-arrow-right -rotate-45 p-2 bg-[#ABEF5F] rounded-2xl text-slate-950"></i></a>
+                </div>
+                <a class="btn btn-ghost text-4xl font-bold">Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-xl font-[16]">
+                    <li class="text-c font-medium"><a>Home</a></li>
+                    <li class="text-[#737373]"><a>Services</a></li>
+                    <li class="text-[#737373]"><a>Portfolio</a></li>
+                    <li class="text-[#737373]"><a>Blogs</a></li>
+                    <li class="text-[#737373]"><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end flex gap-4">
+                <div class="hidden md:block lg:block">
+                    <i class="fa-solid fa-magnifying-glass fa-solid fa-arrow-right p-2 bg-[#E9E9E9] rounded-2xl text-slate-400"></i>
+                </div>
+                <div class="hidden md:block lg:block">
+                    <i class="fa-solid fa-cart-shopping fa-solid fa-arrow-right p-2 bg-[#E9E9E9] rounded-2xl text-slate-400"></i>
+                </div>
+                <div class="hidden md:block lg:block">
+                    <a class="btn bg-[#ABEF5F] rounded-3xl font-semibold">Book Consult<i
+                            class="fa-solid fa-arrow-right -rotate-45 p-2 bg-black rounded-2xl text-white"></i></a>
+                </div>
+            </div>
+            <div tabindex="0" role="button" class="Container mx-auto btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+            </div>
+        </div>
 
+    </header>
+    <main>
+        <!-- banner section start -->
+        <div class="mx-auto">
+            <img class="mx-auto mt-8" src="./assets/banner.png"
+                alt="">
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
